@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Hello World Example",
-    "description": "A basic Hello World example extension!",
+    "name": "Blocked Email",
+    "description": "Moves unwanted emails to Blocked From Inbox folder",
     "version": "1.0",
-    "author": "Thunderbird Team",
+    "author": "Robert",
     "browser_specific_settings": {
         "gecko": {
             "id": "helloworld@yoursite.com",
