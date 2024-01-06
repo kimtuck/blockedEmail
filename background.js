@@ -44,7 +44,7 @@ messenger.messages.onNewMailReceived.addListener(async (folder, messages) => {
                     "type": "basic",
                     //"iconUrl": "images/internet.png",
                     "title": 'Blocked Emails Moved',
-                    "message": `${movedMessages.length} message${movedMessages.length > 1 ? 's' : ''} were moved to the "Blocked From Inbox" folder.`
+                    "message": `${movedMessages.length} message${movedMessages.length > 1 ? 's were' : ' was'} moved to the "Blocked From Inbox" folder.`
                 });
             }, 1000);
         }
