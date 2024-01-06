@@ -22,7 +22,9 @@
     },
     "permissions": [
         "addressBooks",
-        "messagesRead"
+        "messagesRead",
+        "messagesMove",
+        "accountsRead"
     ],
     "icons": {
         "64": "images/internet.png",
