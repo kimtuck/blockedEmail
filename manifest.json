@@ -15,6 +15,15 @@
         "default_title": "Hello World",
         "default_icon": "images/internet-32px.png"
     },
+    "message_display_action": {
+        "default_popup": "messagePopup/popup.html",
+        "default_title": "Block Sender",
+        "default_icon": "images/internet-32px.png"
+    },
+    "permissions": [
+        "addressBooks",
+        "messagesRead"
+    ],
     "icons": {
         "64": "images/internet.png",
         "32": "images/internet-32px.png",
