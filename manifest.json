@@ -10,25 +10,28 @@
             "strict_min_version": "78.0"
         }
     },
-    "browser_action": {
-        "default_popup": "mainPopup/popup.html",
-        "default_title": "Hello World",
-        "default_icon": "images/internet-32px.png"
-    },
     "message_display_action": {
         "default_popup": "messagePopup/popup.html",
         "default_title": "Block Sender",
         "default_icon": "images/internet-32px.png"
     },
+    "background": {
+        "page": "background.html"
+    },
     "permissions": [
         "addressBooks",
         "messagesRead",
         "messagesMove",
-        "accountsRead"
+        "accountsRead",
+        "notifications"
     ],
     "icons": {
         "64": "images/internet.png",
         "32": "images/internet-32px.png",
         "16": "images/internet-16px.png"
-    }
+    },
+    "web_accessible_resources": [
+        "libs/blockedContacts.js",
+        "lilbs/blockedEmailFolder.js"
+      ]
 }
